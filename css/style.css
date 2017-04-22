@@ -1,0 +1,108 @@
+body {
+	background: url(../image/bg.png)  fixed;
+	text-align: center;
+	color: #ffffff;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.logo {
+	font-family: 'Niconne', cursive;
+	font-size: 48px;
+	font-weight: 700;
+	padding-top: 5%;
+	float: left;
+}
+
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	padding: 2%;
+}
+strong {
+	color: #ec670e;
+}
+p {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	margin-top: 2%;
+}
+hr{
+	width: 9%; 
+	height: 5px;
+	background-color: #fff;
+}
+ul{
+	
+
+}
+
+ul#countdown {
+	margin-left:10%;
+		padding-top: 3%;
+		padding-bottom: 20%;
+}
+ul#countdown li{
+	background-color: transparent;	
+	color: #010c01;
+	display: inline;
+	float: left;
+	font: normal bold 36px Arial;
+	letter-spacing: 10px;
+	margin-left: 3%;
+	margin-top: 3%;
+	text-align: center;
+	padding: 4%;
+	border-radius: 20px;
+	border:  3px solid #777;
+	text-align: center;
+	transform: rotate(45deg);
+}
+ul#countdown span {
+	
+}
+ul#countdown  p.timeRefDays, ul#countdown  p.timeRefHours, ul#countdown  p.timeRefMinutes, ul#countdown  p.timeRefSeconds{
+	font: normal normal 16px Arial;
+	letter-spacing: 0;
+	margin: 0 auto;
+	color: #fff;
+	
+}
+ul .days, .hours, .minutes, .seconds {
+	font-size: 65px;
+} 
+span {
+	font-size: 20px;
+}
+.fa-facebook {	
+	color: #ffffff;
+	margin-top: 48px;
+	
+}
+.fa-facebook:hover {
+	color: #166eb9;
+	
+}
+.fa-twitter {	
+	color: #ffffff;
+	margin-top: 48px;
+    margin-left: 10px;
+    float: right;
+}
+
+.fa-twitter:hover {	
+	color: #166eb9;
+}	
+.input-group a {
+	text-decoration: none;	
+}
+.input-group {	
+	margin: 0 auto;
+	padding-top: 2%;
+}
+.input-group-addon {
+	background-color: #f34141;
+	color: #fff;
+}
+.sub p {
+	padding-top: 3%;
+}
