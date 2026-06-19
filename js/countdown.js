@@ -67,7 +67,7 @@ Download link: http://devingredients.com/files/020/final020/020-final.zip
 				thisEl.find(".minutes").text(minutes);
 				thisEl.find(".seconds").text(seconds);
 			} else { 
-				alert("Invalid date. Here's an example: 12 Tuesday 2026 17:30:00");
+				alert("Invalid date. Here's an example: 11 wednesday 2026 17:30:00");
 				clearInterval(interval); 
 			}
 		}
